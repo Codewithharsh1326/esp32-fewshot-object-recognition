@@ -1,0 +1,20 @@
+{
+  "img_size": 96,
+  "embedding_dim": 128,
+  "backbone": "MobileNetV2",
+  "alpha": 0.35,
+  "num_classes_trained": 10,
+  "class_names": [
+    "bottle",
+    "charger",
+    "key",
+    "mouse",
+    "mug",
+    "notebook",
+    "pen",
+    "phone",
+    "remote",
+    "wallet"
+  ],
+  "training_time_seconds": 110.97598433494568
+}

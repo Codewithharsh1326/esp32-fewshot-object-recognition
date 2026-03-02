@@ -1,0 +1,25 @@
+{
+  "img_size": 96,
+  "embedding_dim": 128,
+  "backbone": "MobileNetV2",
+  "alpha": 0.35,
+  "batch_size": 32,
+  "epochs_phase1": 30,
+  "epochs_phase2": 20,
+  "learning_rate": 0.001,
+  "num_classes": 10,
+  "class_names": [
+    "bottle",
+    "charger",
+    "key",
+    "mouse",
+    "mug",
+    "notebook",
+    "pen",
+    "phone",
+    "remote",
+    "wallet"
+  ],
+  "train_samples": 385,
+  "val_samples": 97
+}

@@ -1,0 +1,30 @@
+{
+  "keras_size_kb": 2819.0361328125,
+  "int8_size_kb": 771.90625,
+  "compression_ratio": 3.6520447046678273,
+  "embedding_fidelity_mean": 0.930972174954817,
+  "embedding_fidelity_min": 0.664948158767236,
+  "keras_accuracy": 0.9626556016597511,
+  "int8_accuracy": 0.9294605809128631,
+  "accuracy_drop": 0.03319502074688796,
+  "keras_macro_f1": 0.9624295526540992,
+  "int8_macro_f1": 0.9279901019675012,
+  "keras_silhouette": 0.6645957827568054,
+  "int8_silhouette": 0.5807216763496399,
+  "latency_keras_ms": 68.3656019999853,
+  "latency_int8_ms": 0.7732780000060302,
+  "latency_speedup": 88.41012158557747,
+  "class_names": [
+    "bottle",
+    "charger",
+    "key",
+    "mouse",
+    "mug",
+    "notebook",
+    "pen",
+    "phone",
+    "remote",
+    "wallet"
+  ],
+  "num_images": 482
+}

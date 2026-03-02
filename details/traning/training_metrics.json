@@ -1,0 +1,117 @@
+{
+  "accuracy": 0.9175257731958762,
+  "top_1_accuracy": 0.9175257731958762,
+  "top_3_accuracy": 1.0,
+  "top_5_accuracy": 1.0,
+  "precision_macro": 0.9303418803418804,
+  "recall_macro": 0.9246309246309247,
+  "f1_macro": 0.9181891779717868,
+  "precision_weighted": 0.9326812935060359,
+  "recall_weighted": 0.9175257731958762,
+  "f1_weighted": 0.9156526525419398,
+  "precision_micro": 0.9175257731958762,
+  "recall_micro": 0.9175257731958762,
+  "f1_micro": 0.9175257731958762,
+  "per_class": {
+    "bottle": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "charger": {
+      "precision": 1.0,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.9523809523809523,
+      "support": 11.0
+    },
+    "key": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 9.0
+    },
+    "mouse": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 9.0
+    },
+    "mug": {
+      "precision": 0.9230769230769231,
+      "recall": 0.9230769230769231,
+      "f1-score": 0.9230769230769231,
+      "support": 13.0
+    },
+    "notebook": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 10.0
+    },
+    "pen": {
+      "precision": 1.0,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.875,
+      "support": 9.0
+    },
+    "phone": {
+      "precision": 1.0,
+      "recall": 0.6363636363636364,
+      "f1-score": 0.7777777777777778,
+      "support": 11.0
+    },
+    "remote": {
+      "precision": 0.7692307692307693,
+      "recall": 1.0,
+      "f1-score": 0.8695652173913043,
+      "support": 10.0
+    },
+    "wallet": {
+      "precision": 0.7777777777777778,
+      "recall": 1.0,
+      "f1-score": 0.875,
+      "support": 7.0
+    }
+  },
+  "auc_micro": 0.9946387028967537,
+  "auc_macro": 0.997556613483574,
+  "auc_bottle": 1.0,
+  "auc_charger": 1.0,
+  "auc_key": 1.0,
+  "auc_mouse": 1.0,
+  "auc_mug": 0.9954212454212453,
+  "auc_notebook": 1.0,
+  "auc_pen": 0.9962121212121212,
+  "auc_phone": 0.9799154334038055,
+  "auc_remote": 1.0,
+  "auc_wallet": 0.9968253968253968,
+  "pca_explained_variance": [
+    0.2007541060447693,
+    0.16502448916435242,
+    0.12804068624973297
+  ],
+  "intra_class_distance_mean": 0.22799714598744433,
+  "inter_class_distance_mean": 1.0183035585974642,
+  "distance_separation_gap": 0.7903064126100199,
+  "embedding_spread_per_class": {
+    "bottle": 0.0604565367102623,
+    "charger": 0.1860821545124054,
+    "key": 0.08450378477573395,
+    "mouse": 0.05770245939493179,
+    "mug": 0.22086501121520996,
+    "notebook": 0.04709799215197563,
+    "pen": 0.14729049801826477,
+    "phone": 0.13667097687721252,
+    "remote": 0.08831480145454407,
+    "wallet": 0.09580083936452866
+  },
+  "embedding_spread_mean": 0.11247850954532623,
+  "silhouette_score": 0.6277832984924316,
+  "best_train_accuracy": 0.9974026083946228,
+  "best_val_accuracy": 0.9175257682800293,
+  "best_train_loss": 0.5293719172477722,
+  "best_val_loss": 0.9898474812507629,
+  "total_epochs_trained": 37,
+  "training_time_seconds": 110.97598433494568
+}
