@@ -41,12 +41,12 @@ The system captures images via an ArduCAM camera, extracts 128-dimensional embed
 **Problem:** Traditional object detection models are too large for microcontrollers and require pre-defined classes.
 
 **Solution:** A **few-shot learning** approach where:
-1. The user shows 1–3 reference images of any object to the ESP32 camera
+1. The user shows 2–3 reference images of any object to the ESP32 camera
 2. The device extracts a compact 128-dimensional embedding (feature vector)
 3. When a new object is presented, its embedding is compared against the references
-4. If the cosine similarity exceeds a threshold (default: 0.75), it's a **match**
+4. If the cosine similarity exceeds a threshold (default: 0.75), it is a **match**
 
-This means the system can recognize **any object** — even ones it was never trained on — using just a few reference photos captured at runtime.
+This means the system can recognize **any object** — even the ones it was never trained on — using just a few reference photos captured at runtime.
 
 ---
 
