@@ -1,5 +1,11 @@
 # 🦕 Few-Shot Object Recognition on ESP32-S3
 
+![Architecture: ESP32-S3](https://img.shields.io/badge/Architecture-ESP32--S3-red.svg)
+![Framework: TFLite Micro](https://img.shields.io/badge/Framework-TFLite_Micro-orange.svg)
+![Firmware: C++](https://img.shields.io/badge/Firmware-C%2B%2B-blue.svg)
+![Dashboard: React/Next.js](https://img.shields.io/badge/Dashboard-React%2FNext.js-61DAFB.svg)
+![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)
+
 > **Embedded few-shot object recognition system** using a MobileNetV2 embedding model deployed on an ESP32-S3 microcontroller with a live web dashboard.
 
 The system captures images via an ArduCAM camera, extracts 128-dimensional embedding vectors using an INT8-quantized neural network, and compares them using cosine similarity — all running on-device in real time.
