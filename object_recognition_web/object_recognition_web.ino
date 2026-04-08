@@ -61,8 +61,8 @@
 // ============================================================================
 
 // Wi-Fi credentials
-const char *WIFI_SSID = "Harsh's Galaxy S23";
-const char *WIFI_PASSWORD = "Harsh13261";
+const char *WIFI_SSID = "YOUR_WIFI_NAME";
+const char *WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
 
 // Camera hardware
 #define CAMERA_CS_PIN 10  // SPI chip-select pin for ArduCAM
