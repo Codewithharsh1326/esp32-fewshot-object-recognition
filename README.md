@@ -73,7 +73,7 @@ This means the system can recognize **any object** — even the ones it was neve
 │                     ESP32-S3 Firmware                           │
 │                                                                 │
 │  ┌──────────┐   ┌───────────┐   ┌──────────┐   ┌────────────┐   │
-│  │ ArduCAM  │──▶│  Crop &   │──▶│ TFLite   │──▶│  Cosine   │   │
+│  │ ArduCAM  │──▶│  Crop &  │──▶│ TFLite   │──▶│  Cosine   │   │
 │  │ Capture  │   │ RGB565→   │   │ Micro    │   │ Similarity │   │
 │  │ 160×120  │   │ RGB888    │   │ Inference│   │ Comparison │   │
 │  │          │   │ 96×96     │   │ → 128-d  │   │            │   │
